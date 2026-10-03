@@ -14,6 +14,19 @@
 <link rel="apple-touch-icon" href="favicon.png">
 <title></title>
 <style>  
+
+<p id="timedText">This message will self-destruct in 3 seconds...</p>
+
+<script>
+// 3000 milliseconds = 3 seconds
+setTimeout(function() {
+  document.getElementById("timedText").style.display = "none";
+}, 3000);
+</script>
+
+
+
+  
 /* Resets default browser spacing */
 html, body {
 margin: 0;
