@@ -1,1 +1,2 @@
-
+User-agent: *
+Sitemap: https://mars3jx.github.io/sitemap.xml
